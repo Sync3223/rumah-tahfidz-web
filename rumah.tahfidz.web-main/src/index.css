@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@source "./";
+
+@theme {
+  --color-brand: rgba(0, 110, 233, 1);
+  --color-header: rgba(0, 0, 0, 1);
+  --color-sub-header: rgba(71, 71, 71, 1);
+  --color-text-body: rgba(74, 70, 70, 1);
+
+  /* Font default */
+  --font-sans: "Poppins", sans-serif;
+
+  /* Animasi */
+  --animate-fade-in: fade-in 0.5s ease-out forwards;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Reset Global */
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-body);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
