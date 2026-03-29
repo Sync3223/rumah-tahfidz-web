@@ -72,4 +72,8 @@ Karena integrasi CI/CD diprioritaskan untuk frontend, deployment fungsi dilakuka
 2. Jalankan perintah dari root project:
    ```bash
    firebase deploy --only functions
-Catatan: Pastikan environment variables (MIDTRANS_SERVER_KEY, dll) sudah dikonfigurasi di Google Cloud / Firebase Console.
+ ```
+   *Catatan: Pastikan environment variables (MIDTRANS_SERVER_KEY, dll) sudah dikonfigurasi di Google Cloud / Firebase Console.*
+
+---
+
